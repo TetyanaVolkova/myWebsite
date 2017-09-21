@@ -10,10 +10,10 @@ var React = require('react');
 // 	}
 // });
 
-var WeatherMessage = ({temp, location}) => {
+var WeatherMessage = ({temp, location, icon}) => {
 	return (
 		<div>
-	        <h3>It's {temp} in {location}</h3>
+	        <h5 className="text-center">It's {temp}<span>&#8457;</span> in {location.toUpperCase()}</h5>
       	</div>
 	)
 };

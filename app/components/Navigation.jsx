@@ -2,11 +2,6 @@ var React = require('react');
 var {Link, IndexLink} = require('react-router');
 
 var Navigation = React.createClass({
-	onSearch: function(e) {
-		e.preventDefault();
-		this.refs.search.value='';
-		alert('Not yet wired up!');
-	},
 
 	render: function() {
 		return(
@@ -28,18 +23,6 @@ var Navigation = React.createClass({
 						</li>
 					</ul>
 				</div>
-				<div className="top-bar-right">
-					<form onSubmit={this.onSearch}>
-						<ul className="menu">
-							<li>
-								<input type="search" ref="search" placeholder="Search Weather" />
-							</li>
-							<li>
-								<input type="submit" className="button" value="Get Weather" />
-							</li>
-						</ul>
-					</form>
-				</div>
 			</div>
 		);
 	}
@@ -47,3 +30,23 @@ var Navigation = React.createClass({
 
 
 module.exports = Navigation;
+
+// var old = 		(
+// 		<div className="top-bar-right">
+// 			<form onSubmit={this.onSearch}>
+// 				<ul className="menu">
+// 					<li>
+// 						<input type="search" ref="search" placeholder="Search Weather" />
+// 					</li>
+// 					<li>
+// 						<input type="submit" className="button" value="Get Weather" />
+// 					</li>
+// 				</ul>
+// 			</form>
+// 		</div>
+// 	);
+// 	onSearch: function(e) {
+// 		e.preventDefault();
+// 		this.refs.search.value='';
+// 		alert('Not yet wired up!');
+// 	}
