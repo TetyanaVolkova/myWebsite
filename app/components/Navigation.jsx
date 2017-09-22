@@ -8,7 +8,7 @@ var Navigation = React.createClass({
 			<div className="top-bar">
 				<div className="top-bar-left">
 					<ul className="menu">
-						<li className="menu-text">Tetyana Volkova</li>
+						<li className="menu-text"><img src="http://www.tetyanavolkova.com/resources/img/20160502_171708-1.jpg" />Tetyana Volkova</li>
 						<li>
 							<IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Resume</IndexLink>
 						</li>

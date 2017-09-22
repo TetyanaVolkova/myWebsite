@@ -17,7 +17,7 @@ var Main = (props) => {
 	return (
 		<div>
 			<Navigation />
-			<div className="row">
+			<div className="row main-content">
 				<div className="columns large-8 small-10 small-centered">
 					{props.children}
 				</div>

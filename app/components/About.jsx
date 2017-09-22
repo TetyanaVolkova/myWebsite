@@ -3,14 +3,14 @@ var React = require('react');
 // var About = React.createClass({
 // 	render: function() {
 // 		return (
-// 			<h3>About Component</h3>
+// 			<h1 className="text-center page-title">About Component</h1>
 // 		)
 // 	}
 // });
 
 var About = (props) => {
 	return (
-		<h3>About Component</h3>
+		<h1 className="text-center page-title">About Component</h1>
 	)
 }
 
