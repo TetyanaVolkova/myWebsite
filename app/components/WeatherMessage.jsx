@@ -13,7 +13,7 @@ var React = require('react');
 var WeatherMessage = ({temp, location, icon}) => {
 	return (
 		<div>
-	        <h5 className="text-center">It's {temp}<span>&#8457;</span> in {location.toUpperCase()}</h5>
+	        <h4 className="text-center">It's {temp}<span>&#8457;</span> in {location.toUpperCase()}</h4>
       	</div>
 	)
 };

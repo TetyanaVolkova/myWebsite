@@ -26,9 +26,7 @@ var Resume = (props) => {
                      Angular Material, React, AngularJS/single page app, Knockout, etc.
                 </p>
             </div>
-
             <div className="callout secondary">
-                <h3 className="text-center">Relevant Experience</h3>
 
                 <h5 className="subheader">2015 &#45; Present,</h5>
                 <h5 className="subheader">NET ESOLUTIONS CORP. (NETE),</h5>
