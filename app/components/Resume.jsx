@@ -2,7 +2,7 @@ var React = require('react');
 
 var Resume = (props) => {
 	return (
-		<div>
+		<div className="resumeWrapper">
 			<div>
 				<h1 className="text-center resume-title">Resume</h1>
 				<h6 className="initial subheader text-center">Front End Developer</h6>

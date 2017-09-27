@@ -18,28 +18,29 @@ var Weather = React.createClass({
       errorMessage: undefined
     });
 
-    openWeatherMap.getTemp(location).then(function (temp) {
+    openWeatherMap.getTemp(location).then(function (data) {
+      console.log(data.name);
       that.setState({
-        location: location,
-        temp: temp,
+        location: data.name,
+        temp: data.main.temp,
         isLoading: false
       });
-    }, function (e) {
+    }, function (err) {
       that.setState({
         isLoading: false,
-        errorMessage: e.message
+        errorMessage: err.message
       });
     });
   },
 
-  componentDidMount: function() {
-    var location = this.props.location.query.location;
-    console.log(location);
+  // componentDidMount: function() {
+  //   var location = this.props.location.query.location;
+  //   console.log(location);
 
-    if(location && location.length > 0) {
-      this.handleSearch(location);
-    }
-  },
+  //   if(location && location.length > 0) {
+  //     this.handleSearch(location);
+  //   }
+  // },
 
   render: function () {
     var {isLoading, temp, location, errorMessage} = this.state;

@@ -13,7 +13,7 @@ var Navigation = React.createClass({
 							<IndexLink to="/" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Resume</IndexLink>
 						</li>
 						<li>
-							<IndexLink to="weather" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Weather API</IndexLink>
+							<Link to="weather" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>Weather API</Link>
 						</li>
 						<li>
 							<Link to="/about" activeClassName="active" activeStyle={{fontWeight: 'bold'}}>About</Link>
