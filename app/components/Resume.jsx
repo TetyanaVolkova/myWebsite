@@ -12,7 +12,7 @@ var Resume = (props) => {
                 <h3 className="text-center">Experience Summary</h3>
 
                 <p className="col span-3-of-4 box long-copy">
-                     I have over 6 years of Experience in both the Government and Commercial sectors. 
+                     I have over 7 years of Experience in both the Government and Commercial sectors. 
                      Worked in both Agile and Waterfall settings. Tested front-end code in multiple browsers 
                      to ensure cross-browser compatability. I have a solid knowledge and thorough grasp of 
                      Web fundamentals: HTTP, semantics HTML, CSS3, CSS preprocessors, DOM, JavaScript, 
